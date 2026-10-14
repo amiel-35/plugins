@@ -1,0 +1,46 @@
+{
+  "name": "amiel-35",
+  "description": "Amiel Lavon's Claude plugins: cognitive atoms (ix-skills), domain recipes built on them (ix-recipes), philosophers' reasoning methods (ghost-council).",
+  "owner": {
+    "name": "Amiel Lavon",
+    "url": "https://github.com/amiel-35"
+  },
+  "plugins": [
+    {
+      "name": "ix-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "amiel-35/ix-skills",
+        "path": "dist",
+        "ref": "main"
+      },
+      "description": "Atomic knowledge-work skills for structured pipelines — critique, correction, simplify, rephrase, explorer, decision, deliver, fact-check — and advisory postures (red-team, contrarian, dixieme-homme…).",
+      "homepage": "https://github.com/amiel-35/ix-skills",
+      "license": "MIT"
+    },
+    {
+      "name": "ix-recipes",
+      "source": {
+        "source": "git-subdir",
+        "url": "amiel-35/ix-recipes",
+        "path": "dist",
+        "ref": "main"
+      },
+      "description": "Domain recipes on top of ix-skills — HR, legal, finance, procurement, product and tech deliverables, plus workflows chaining ix-skills atoms. Install ix-skills too.",
+      "homepage": "https://github.com/amiel-35/ix-recipes",
+      "license": "MIT"
+    },
+    {
+      "name": "ghost-council",
+      "source": {
+        "source": "git-subdir",
+        "url": "amiel-35/ghost-council",
+        "path": "dist",
+        "ref": "main"
+      },
+      "description": "Des philosophes encodés comme skills — la méthode, pas le personnage. Socrate, Popper, Wittgenstein, Sartre et une vingtaine d'autres, et /council pour les faire délibérer.",
+      "homepage": "https://github.com/amiel-35/ghost-council",
+      "license": "MIT"
+    }
+  ]
+}
